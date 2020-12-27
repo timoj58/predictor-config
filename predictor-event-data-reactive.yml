@@ -9,7 +9,7 @@ epic:
 spring:
   data:
    mongodb:
-    uri:mongodb://${epic.fail.username}:${epic.fail.password}@${epic.fail.host}:${epic.fail.port}/${epic.fail.database}?authSource=${epic.fail.database}&authMechanism=SCRAM-SHA-1
+    uri: mongodb://${epic.fail.username}:${epic.fail.password}@${epic.fail.host}:${epic.fail.port}/${epic.fail.database}?authSource=${epic.fail.database}&authMechanism=SCRAM-SHA-1
 
 config:
   dir: /tmp/
