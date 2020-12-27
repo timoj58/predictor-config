@@ -3,6 +3,6 @@ clients:
   event-data: http://ip-172-31-32-162.ec2.internal:8093
   event: http://ip-172-31-40-214.ec2.internal:8094
   players: http://ip-172-31-42-43.ec2.internal:8095
-  event-scraper: http://ec2-3-235-242-20.compute-1.amazonaws.com:8098
-  data-scraper: http://ec2-3-239-111-84.compute-1.amazonaws.com:8097
+  event-scraper: http://ip-172-31-75-104.ec2.internal:8098
+  data-scraper: http://ip-172-31-77-187.ec2.internal:8097
 
