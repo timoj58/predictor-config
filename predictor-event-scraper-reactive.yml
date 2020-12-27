@@ -1,0 +1,10 @@
+clients:
+ data: http://ip-172-31-34-75.ec2.internal:8092
+ events-data: http://ip-172-31-32-162.ec2.internal:8093
+ events: http://ip-172-31-40-214.ec2.internal:8094
+
+config:
+  dir: /tmp/
+
+aws:
+ profile: predictor
