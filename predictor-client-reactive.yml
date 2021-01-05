@@ -6,3 +6,6 @@ clients:
   event-scraper: http://ip-172-31-75-104.ec2.internal:8098
   data-scraper: http://ip-172-31-77-187.ec2.internal:8097
 
+orchestration:
+  enabled: true
+
