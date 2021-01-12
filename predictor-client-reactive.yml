@@ -7,5 +7,5 @@ clients:
   data-scraper: http://ip-172-31-77-187.ec2.internal:8097
 
 orchestration:
-  enabled: true
+  enabled: false
 
