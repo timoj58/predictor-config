@@ -19,4 +19,4 @@ spring:
      uri: mongodb://${epic.fail.username}:${epic.fail.password}@${epic.fail.host}:${epic.fail.port}/${epic.fail.database}?authSource=${epic.fail.database}&authMechanism=SCRAM-SHA-1
 
 training:
-  evaluation: true
+  evaluation: false
