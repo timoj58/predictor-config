@@ -3,7 +3,7 @@ server:
         port: 8080      
 epic:
   fail:
-   host: ip-172-31-88-19.ec2.internal
+          host: 'http://172.31.7.99'
    port: 27017
    database: 'predictor-db'
    username: 'predictor'
