@@ -9,5 +9,8 @@ spring:
       uri: mongodb://http://172.31.7.99:27017/predictor-db
       auto-index-creation: true
       password: '{cipher}3af0dbc153aca8924d1f0588f393c91b55a5be05ec296093fd5694d11b65ddb3'
-      username: 'predictor'       
+      username: 'predictor'  
+      repositories:
+        enabled: true
+      authentication-database: admin     
 
