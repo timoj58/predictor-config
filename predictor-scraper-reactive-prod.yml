@@ -17,7 +17,7 @@ spring:
 
 
 clients:
-  data: 172.31.25.151:8080
+  data: http://172.31.25.151:8080
   team: http://ip-172-31-38-2.ec2.internal:8090
 
 
