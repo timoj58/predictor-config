@@ -1,10 +1,10 @@
 #MongoDB Properties
 server:
-        port: 8080      
+    port: 8080      
 
 epic:
   fail:
-          host: 'http://172.31.7.99'
+   host: 'http://172.31.7.99'
    port: 27017
    database: 'predictor-db'
    username: 'predictor'
