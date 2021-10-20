@@ -2,9 +2,9 @@
 server:
     port: 8080      
 
-epic:
-  fail:
-   host: 'http://172.31.7.99'
+connection:
+  details:
+   host: '172.31.7.99'
    port: 27017
    database: 'predictor-db'
    username: 'predictor'
@@ -13,5 +13,7 @@ epic:
 spring:
   data:
    mongodb:
-    uri: mongodb://${epic.fail.username}:${epic.fail.password}@${epic.fail.host}:${epic.fail.port}/${epic.fail.database}?authSource=${epic.fail.database}&authMechanism=SCRAM-SHA-1
+    uri: mongodb://${connection.details.username}:${connection.details.password}@${connection.details.host}:${connection.details.port}/${connection.details.database}?authSource=${
+connection.details.database}&authMechanism=SCRAM-SHA-1
+
 
