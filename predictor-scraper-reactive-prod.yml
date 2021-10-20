@@ -3,7 +3,7 @@ server:
 
 connection:
   details:
-   host: 'http://172.31.7.99'
+   host: '172.31.7.99'
    port: 27017
    database: 'predictor-db'
    username: 'predictor'
