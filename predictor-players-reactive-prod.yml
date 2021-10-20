@@ -1,9 +1,10 @@
-clients: 
-  data: http://ip-172-31-34-75.ec2.internal:8092
-  training: http://ip-172-31-83-22.ec2.internal:5000
-  event-data: http://ip-172-31-32-162.ec2.internal:8093
-  players: http://ip-172-31-42-43.ec2.internal:8095
-  client: http://ip-172-31-75-156.ec2.internal:8100
+server:
+  port: 8080       
+clients:
+ data: http://ip-172-31-34-75.ec2.internal:8080
+ training: http://ip-172-31-75-252.ec2.internal:5000
+ event-data: http://ip-172-31-32-162.ec2.internal:8080
+ client: http://ip-172-31-75-156.ec2.internal:8080
 
 epic:
  fail:

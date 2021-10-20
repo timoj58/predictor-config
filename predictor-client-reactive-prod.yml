@@ -1,0 +1,14 @@
+server:
+  port: 8080      
+
+clients:
+  data: http://ip-172-31-34-75.ec2.internal:8080
+  event-data: http://ip-172-31-32-162.ec2.internal:8080
+  event: http://ip-172-31-40-214.ec2.internal:8080
+  players: http://ip-172-31-42-43.ec2.internal:8080
+  event-scraper: http://ip-172-31-75-104.ec2.internal:8080
+  data-scraper: http://ip-172-31-77-187.ec2.internal:8080
+
+orchestration:
+  enabled: false
+
