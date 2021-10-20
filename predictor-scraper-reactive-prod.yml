@@ -5,7 +5,9 @@ server:
 spring:
   data:
    mongodb:
-      uri: mongodb://http://172.31.7.99:27017/predictor-db
+      host: http://172.31.7.99
+      port: 27017
+      database: 'predictor-db'
       username: 'predictor'
       password: '{cipher}3af0dbc153aca8924d1f0588f393c91b55a5be05ec296093fd5694d11b65ddb3'
 
