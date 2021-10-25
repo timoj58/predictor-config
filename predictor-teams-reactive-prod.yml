@@ -1,7 +1,7 @@
 server:
    port: 8080      
 clients:
-  data: http://ip-172-31-34-75.ec2.internal:8080
+  data: http://172.31.25.151:8080
   training: http://ip-172-31-83-22.ec2.internal:5000
   events: http://ip-172-31-40-214.ec2.internal:8080
   players: http://ip-172-31-42-43.ec2.internal:8080
