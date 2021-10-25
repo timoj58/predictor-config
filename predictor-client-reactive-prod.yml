@@ -9,6 +9,10 @@ clients:
   event-scraper: http://ip-172-31-75-104.ec2.internal:8080
   data-scraper: http://172.31.31.152:8080
 
+vocab:
+    teams: true
+    players: true
+
 orchestration:
   enabled: false
 
