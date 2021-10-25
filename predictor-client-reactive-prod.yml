@@ -11,7 +11,7 @@ clients:
 
 vocab:
     teams: true
-    players: true
+    players: false
 
 orchestration:
   enabled: false
