@@ -15,7 +15,6 @@ connection:
 spring:
   data:
    mongodb:
-    uri: mongodb://${connection.details.username}:${connection.details.password}@${connection.details.host}:${connection.details.port}/${connection.details.database}?authSource=ad
-min&authMechanism=SCRAM-SHA-1
+    uri: mongodb://${connection.details.username}:${connection.details.password}@${connection.details.host}:${connection.details.port}/${connection.details.database}?authSource=admin&authMechanism=SCRAM-SHA-1
 
 
