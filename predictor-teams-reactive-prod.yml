@@ -21,4 +21,4 @@ spring:
 
 
 training:
-  evaluation: true
+  evaluation: false
