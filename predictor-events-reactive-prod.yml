@@ -3,9 +3,8 @@ server:
 clients: 
    data: http://172.31.25.151:8080
    training: http://172.31.90.235:5000
-   event-data: http://ip-172-31-32-162.ec2.internal:8080
-   players: http://ip-172-31-42-43.ec2.internal:8080
-   client: http://ip-172-31-75-156.ec2.internal:8080
+   event-data: http://172.31.4.5:8080
+   message: http://172.31.10.169:8080
 
 connection:
   details:

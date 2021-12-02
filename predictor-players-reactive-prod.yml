@@ -3,6 +3,7 @@ server:
 clients:
  data: http://172.31.25.151:8080
  training: http://172.31.30.98:5000
+ message: http://172.31.10.169:8080
 
 connection:
   details:

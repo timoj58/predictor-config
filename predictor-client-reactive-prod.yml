@@ -3,16 +3,19 @@ server:
 
 clients:
   data: http://172.31.25.151:8080
-  event-data: http://ip-172-31-32-162.ec2.internal:8080
-  event: http://ip-172-31-40-214.ec2.internal:8080
-  players: http://ip-172-31-42-43.ec2.internal:8080
-  event-scraper: http://ip-172-31-75-104.ec2.internal:8080
+  event-data: http://172.31.4.5:8080
+  events: http://172.31.85.150:8080
+  player-events: http://172.31.90.17:8080
+  message: http://172.31.10.169:8080
   data-scraper: http://172.31.31.152:8080
 
 vocab:
-    teams: true
+    teams: false
     players: false
 
 orchestration:
   enabled: false
+
+test:
+  mode: false  
 
