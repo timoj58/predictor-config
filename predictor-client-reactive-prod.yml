@@ -14,7 +14,7 @@ vocab:
     players: false
 
 orchestration:
-  enabled: false
+  enabled: true
 
 test:
   mode: false  
